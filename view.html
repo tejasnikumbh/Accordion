@@ -4,29 +4,49 @@
 	<script type='text/javascript' src='lib/jquery.js'></script>
 	<link rel='stylesheet' href='style/style.css'/>
 	<script type='text/javascript' src='js/core_script.js'></script>
-	
+	<style type='text/css'>
+		div.container{
+			margin:auto;
+			width:250px;
+			padding:2px;
+			border:2px solid grey;
+			border-radius:20px;}
+		div.item,div.item_bottom{
+			border:1px solid grey;
+			height:35px;
+			margin:2px;}
+			
+		div.item_cont{
+			background-color:black;
+			display:none;
+			margin:2px;
+			height:200px;}
+		#open_one{
+			display:block;}
+		
+	</style>
     <body>
 		<div class='container'>        
         
-			<div class='item'>
+			<div class='item' style="border-radius:20px 20px 0 0;background-image:url('images/back1.png');">
             </div>		
             <div class='item_cont' id='open_one'>
 			</div>
 				
             
-			<div class='item'>
+			<div class='item' style="background-image:url('images/back2.png');">
             </div>
             <div class='item_cont'>
 			</div>
 				
             
-			<div class='item'>
+			<div class='item' style="background-image:url('images/back3.png');">
             </div>
             <div class='item_cont'>
 			</div>
 				
             
-			<div class='item'>
+			<div class='item_bottom' style="border-radius:0px 0px 20 20;background-image:url('images/back4.png');">
             </div>
             <div class='item_cont'>
 			</div>
